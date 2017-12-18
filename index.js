@@ -29,4 +29,4 @@ function findAllByFieldValue(type, key, value) {
 
     return target;  // lastly extract the chosen 'field' from the target post or page source and return it
 }
-hexo.extend.helper.register('find_by_field', findCustomField);  // this registers this plugin with Hexo
+hexo.extend.helper.register('find_by_field', findAllByFieldValue);  // this registers this plugin with Hexo
