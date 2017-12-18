@@ -25,6 +25,8 @@ function findCustomField(type, key, value, field) {
     }
     data = data["data"];  // the acutal data is in the 'data' object
 
+    console.log(JSON.stringify(data));
+
     var target = _.find(data, [key, value]);  // using 'lodash' to find the first occurence of the given 'title' in the data object
 
     return target[field];  // lastly extract the chosen 'field' from the target post or page source and return it
