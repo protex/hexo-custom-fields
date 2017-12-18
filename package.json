@@ -1,5 +1,5 @@
 {
-  "name": "hexo-custom-fields",
+  "name": "hexo-get-by-value",
   "version": "1.1.1",
   "description": "A Hexo plugin that allows you to get data for posts or pages filtered by any field",
   "main": "index.js",
