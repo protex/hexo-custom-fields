@@ -1,17 +1,6 @@
 # hexo-custom-fields   
 A Hexo plugin that allows the default Markdown source files to be used as custom fields
 
-## Motive
-
-I am a front-end developer originally. I used many CMS throughout
-the years and with many of them it was common to have custom fields.
-Which is a functionality that allows the coder to be able to include just snippets
-of text or an image path into a template.
-I wanted to try a static-site generator more deeply and chose Hexo which I like so far.
-It is just missing an easy way to include custom fields directly from
-your Markdown source files.
-That's exactly what this plugin is trying to solve!
-
 ## Installation
 
 NPM
