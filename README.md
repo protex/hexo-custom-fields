@@ -1,5 +1,4 @@
-# hexo-custom-fields
-[![npm](https://img.shields.io/npm/dt/hexo-custom-fields.svg)](https://www.npmjs.com/package/hexo-custom-fields)    
+# hexo-custom-fields   
 A Hexo plugin that allows the default Markdown source files to be used as custom fields
 
 ## Motive
