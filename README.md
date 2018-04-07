@@ -17,20 +17,15 @@ That's exactly what this plugin is trying to solve!
 
 NPM
 ```
-npm install --save hexo-custom-fields
-```
-
-Yarn
-```
-yarn add hexo-custom-fields
+npm install --save git+https://github.com/protex/hexo-get-by-value.git
 ```
 
 ## Usage
 
-Insert the `custom_field()` tag in your templates (in this example with EJS):
+Insert the `find_by_field()` tag in your templates (in this example with EJS):
 
 ```
-<%- custom_field('posts|pages, 'title_in_the_front_matter', 'name_of_the_field') %>
+<%- find_by_field ('posts|pages, 'title_in_the_front_matter', 'name_of_the_field') %>
 ```
 
 Argument | Description
@@ -61,7 +56,7 @@ from the Markdown source file *'front-page'*
 in the 'source' directory (which makes it a *'page'*)
 [Read more about the location in the Hexo documentation](https://hexo.io/docs/writing.html#Layout)
 ```
-<%- custom_field('pages', 'front-page', 'birthday') %>
+<%- find_by_field('pages', 'front-page', 'birthday') %>
 ```
 
 
